@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anthony Alperov — Software Engineer</title>
+  <meta name="description" content="Anthony Alperov — Software Engineer. DevOps, backend, C++ projects."/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Anthony <span class="accent">Alperov</span></h1>
+        <p class="subtitle">Software Engineer — DevOps · Backend · Games</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="https://github.com/talperov" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2>Hello — I’m <span class="accent">Anthony</span>.</h2>
+          <p class="lead">I build backend systems and C++ projects, and I tinker with DevOps and game-related code. I enjoy data structures, systems, and making things that run reliably.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="card summary">
+            <h3>Quick Facts</h3>
+            <ul>
+              <li><strong>Major:</strong> Computer Engineering (WSU)</li>
+              <li><strong>Preferred:</strong> C++, systems, backend</li>
+              <li><strong>Interests:</strong> DevOps, gaming, algorithms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p>I'm interested in development, backend systems, DevOps, and game-related programming. I like solving problems using data structures and C++. I build small simulators and tools as learning projects and to practice clean, testable code.</p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Projects</h2>
+          <div class="project-filter">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="cpp">C++</button>
+            <button data-filter="c">C</button>
+          </div>
+        </div>
+
+        <div class="grid" id="projectGrid">
+          <!-- Project card -->
+          <article class="project-card" data-tags="cpp">
+            <h3>Grocery Store Simulator</h3>
+            <p class="muted">A C++ simulation modeling store inventory, checkout queues, and simple event-driven interactions. Good practice with OOP and STL containers.</p>
+            <p class="proj-meta"><strong>Tech:</strong> C++ (STL)</p>
+            <div class="proj-actions">
+              <a href="https://github.com/talperov" target="_blank" rel="noopener">View repo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="cpp">
+            <h3>Attendance Tracker</h3>
+            <p class="muted">C++ console app for tracking attendance records, basic file I/O, and summary statistics. Built with a focus on correct input handling and persistence.</p>
+            <p class="proj-meta"><strong>Tech:</strong> C++ (file I/O)</p>
+            <div class="proj-actions">
+              <a href="https://github.com/talperov" target="_blank" rel="noopener">View repo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="cpp">
+            <h3>Morse Code Translator (BST)</h3>
+            <p class="muted">Implemented a binary search tree (BST) for fast translation between text and Morse code. Practiced tree traversal and encoding/decoding techniques.</p>
+            <p class="proj-meta"><strong>Tech:</strong> C++ (BST)</p>
+            <div class="proj-actions">
+              <a href="https://github.com/talperov" target="_blank" rel="noopener">View repo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="c">
+            <h3>Other C Projects</h3>
+            <p class="muted">Various exercises and assignments in C — system utilities, parsing tasks, and algorithm practice. Good foundation for low-level development.</p>
+            <p class="proj-meta"><strong>Tech:</strong> C</p>
+            <div class="proj-actions">
+              <a href="https://github.com/talperov" target="_blank" rel="noopener">View GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p>If you'd like to reach out about internships, projects, or collaborations, here's the best way to find me.</p>
+
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:anthony.alperov@wsu.edu">anthony.alperov@wsu.edu</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/talperov" target="_blank" rel="noopener">github.com/talperov</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tony-alperov-a8696a2a4/" target="_blank" rel="noopener">Tony Alperov</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="section-title">Resume</h3>
+          <p>Want my resume? Add a PDF link here (or paste the PDF file into the repo and link it). For now use the button below to download a placeholder resume.</p>
+          <a class="btn" href="#" onclick="alert('Add your resume.pdf to the repo and update this link.'); return false;">Download Resume (placeholder)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Made by Anthony Alperov — <a href="https://github.com/talperov" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/tony-alperov-a8696a2a4/" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
